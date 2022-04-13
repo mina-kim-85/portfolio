@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
     <script src="https://kit.fontawesome.com/ea3ba603d3.js" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/typeit@8.3.3/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/ea3ba603d3.js" crossorigin="anonymous"></script>
     <!-- googlefonts -->
@@ -79,7 +82,7 @@
                 <p class="section__title section__title--name">
                     Hi, I am Mina Kim
                 </p>
-                <h1 class="section__title">Creative Thinking,<br>Better Design</h1>
+                <h1 id="title" class="section__title">Creative Thinking,<br>Better Design. </h1>
                 <h3 class="section__title section__title-jobtitle">UI/UX Designer | Front-end Developer</h3>
                 <p class="section__title section__title--intro">I'm a lover of creating new possibilities and solving
                     problem.</p>
@@ -87,14 +90,16 @@
                 <a href="#footer" class="btn">Contact Me<i class="fa-solid fa-circle-arrow-right"></i></a>
             </div>
             <!-- <p class="section__subtitle section__subtitle--intro">front-end dev</p> -->
-            <img src="/img/Mina_Kim_04.jpg" alt="Mina" class="intro__img">
-        </div>
+            <img src="/img/main.png" alt="Mina" class="intro__img">
+        <!-- <iframe class="intro_animation" src='https://my.spline.design/animatedringscopy-8b0b4d8f66f98c45d6b1723a87bab3b7/' frameborder='0' width='100%' height='100%'></iframe> -->
+        
+    </div>
         <a href="#about" class="scroll-down">Scroll Down <i class="fa fa-solid fa-arrow-down"></i></a>
     </section>
 
 
     <!-- My services -->
-    <section id="my-skills">
+    <section data-scroll id="my-skills">
         <div class="section section__container">
             <h2 class="section__title section__title--work">What I do</h2>
 
@@ -113,10 +118,14 @@
                                 researces.</p>
                             <h4>What I did</h4>
                             <ul>
-                                <li class="body-list"><i class="fas fa-check-circle"></i> Focus on user-friendly design</li>
-                                <li class="body-list"><i class="fas fa-check-circle"></i> Design wireframe and prototyphing</li>
-                                <li class="body-list"><i class="fas fa-check-circle"></i> Create user Persona and Storyboard</li>
-                                <li class="body-list"><i class="fas fa-check-circle"></i> Establish Competitive Research / Analysis
+                                <li class="body-list"><i class="fas fa-check-circle"></i> Focus on user-friendly design
+                                </li>
+                                <li class="body-list"><i class="fas fa-check-circle"></i> Design wireframe and
+                                    prototyphing</li>
+                                <li class="body-list"><i class="fas fa-check-circle"></i> Create user Persona and
+                                    Storyboard</li>
+                                <li class="body-list"><i class="fas fa-check-circle"></i> Establish Competitive Research
+                                    / Analysis
                                     and User Research</li>
                             </ul>
                         </div>
@@ -198,7 +207,7 @@
     </section>
 
     <!-- About me -->
-    <section id="about-me" class="section section__container">
+    <section data-scroll id="about-me" class="section section__container">
         <h2 class="section__title section__title--about">Who I am</h2>
         <!-- <p class="section__subtitle section__subtitle--about">UI/UX Designer & Front-end Developer </p> -->
 
@@ -218,7 +227,7 @@
     </section>
 
     <!-- My Work -->
-    <section id="my-work">
+    <section data-scroll id="my-work">
         <div class="section section__container">
             <h2 class="section__title">My work</h2>
             <p class="section__subtitle">A selection of my range of work</p>
@@ -247,7 +256,7 @@
                     <img src="/img/Dancevita_website.jpg" alt="" class="portfolio__img">
                     <div class="info">
                         <h3 class="info-title">Web Design</h3>
-                        <span class="info-subtitle">Youtube</span>
+                        <span class="info-subtitle">Energy Drink</span>
                     </div>
                 </a>
 
@@ -255,62 +264,70 @@
                 <a href="portfolio-item4.html" class="portfolio__item">
                     <img src="/img/Rentals APP_Main.jpg" alt="" class="portfolio__img">
                     <div class="info">
-                        <h3 class="info-title">Web Design</h3>
-                        <span class="info-subtitle">Youtube</span>
+                        <h3 class="info-title">App Design</h3>
+                        <span class="info-subtitle">Northern Xscape Rentals App</span>
                     </div>
                 </a>
 
                 <!-- Portfolio item 05 -->
                 <a href="portfolio-item5.html" class="portfolio__item">
-                    <img src="/img/port-img1.jpg" alt="" class="portfolio__img">
+                    <img src="/img/kinethic_main.png" alt="" class="portfolio__img">
                     <div class="info">
-                        <h3 class="info-title">Web Design</h3>
-                        <span class="info-subtitle">Youtube</span>
+                        <h3 class="info-title">Motion Graphic</h3>
+                        <span class="info-subtitle">Pre production</span>
                     </div>
                 </a>
 
                 <!-- Portfolio item 06 -->
                 <a href="portfolio-item6.html" class="portfolio__item">
-                    <img src="/img/port-img1.jpg" alt="" class="portfolio__img">
+                    <img src="/img/motion_design_package_main.png" alt="" class="portfolio__img">
                     <div class="info">
-                        <h3 class="info-title">Web Design</h3>
-                        <span class="info-subtitle">Youtube</span>
+                        <h3 class="info-title">Motion Graphic</h3>
+                        <span class="info-subtitle">Motion design package</span>
                     </div>
                 </a>
 
                 <!-- Portfolio item 07 -->
-                <a href="#" class="portfolio__item">
-                    <img src="/img/port-img1.jpg" alt="" class="portfolio__img">
+                <a href="portfolio-item7.html" class="portfolio__item">
+                    <img src="/img/Fundamental_main.png" alt="" class="portfolio__img">
                     <div class="info">
-                        <h3 class="info-title">Web Design</h3>
-                        <span class="info-subtitle">Youtube</span>
+                        <h3 class="info-title">Motion Graphic</h3>
+                        <span class="info-subtitle">Fundamental_Animation</span>
                     </div>
                 </a>
 
                 <!-- Portfolio item 08 -->
-                <a href="#" class="portfolio__item">
-                    <img src="/img/port-img1.jpg" alt="" class="portfolio__img">
+                <a href="portfolio-item8.html" class="portfolio__item">
+                    <img src="/img/Morphing__main.png" alt="" class="portfolio__img">
                     <div class="info">
-                        <h3 class="info-title">Web Design</h3>
-                        <span class="info-subtitle">Youtube</span>
+                        <h3 class="info-title">Motion Graphic</h3>
+                        <span class="info-subtitle">Motion Graphics Morphing Animation</span>
                     </div>
                 </a>
 
                 <!-- Portfolio item 09 -->
-                <a href="#" class="portfolio__item">
-                    <img src="/img/port-img1.jpg" alt="" class="portfolio__img">
+                <a href="portfolio-item9.html" class="portfolio__item">
+                    <img src="/img/comptree_main.jpg" alt="" class="portfolio__img">
                     <div class="info">
                         <h3 class="info-title">Web Design</h3>
-                        <span class="info-subtitle">Youtube</span>
+                        <span class="info-subtitle">Redesign</span>
                     </div>
                 </a>
 
                 <!-- Portfolio item 0 0-->
-                <a href="#" class="portfolio__item">
-                    <img src="/img/port-img1.jpg" alt="" class="portfolio__img">
+                <a href="portfolio-item10.html" class="portfolio__item">
+                    <img src="/img/hanyang_main.jpg" alt="" class="portfolio__img">
                     <div class="info">
                         <h3 class="info-title">Web Design</h3>
-                        <span class="info-subtitle">Youtube</span>
+                        <span class="info-subtitle">Graphic website</span>
+                    </div>
+                </a>
+                <!-- Portfolio item 0 0-->
+                <a href="portfolio-item11.html" class="portfolio__item">
+                    <img src="/img/Ad_main.jpg" alt="" class="portfolio__img">
+                    <div class="info">
+                        <h3 class="info-title">Advertisement</h3>
+                        <span class="info-subtitle">Ad</span>
                     </div>
                 </a>
             </div>
@@ -322,27 +339,25 @@
     <footer id="footer" class="section section__container">
         <!-- replace with your own email address -->
         <div class="footer__container">
-            <ul class="info-list">
-                <li class="info-list__item"><a href="mailto:hello@jane.dev"
-                        class="footer__link">minakim9103@gmail.com</a>
-                </li>
-            </ul>
-            <a href="" class="btn">Let's talk</a>
+
+            <h2 class="footer__text">Let's talk</h2>
+            <a href="mailto:hello@jane.dev" class="footer__link">minakim9103@gmail.com</a>
 
             <ul class="social-list">
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://codepen.io"><i class="fa-brands fa-github"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="http://dribbble.com"><i class="fa-brands fa-github"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com"><i class="fa-brands fa-github"></i></a>
-                </li>
-                <li class="social-list__item">
                     <a class="social-list__link" href="https://github.com"><i class="fa-brands fa-github"></i></a>
                 </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/mina-kim-designer"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.behance.net/minakim19"><i
+                            class="fa-brands fa-behance"></i></a>
+                </li>
             </ul>
+
+            <p>2022 Mina Kim Portfolio - All rights reserved</p>
         </div>
     </footer>
 

@@ -78,3 +78,17 @@ const menuToggle = document.querySelector(".menu-toggle");
 menuToggle.addEventListener("click", () => {
     navbar.classList.toggle("open");
 });
+
+// typing main
+document.addEventListener('DOMContentLoaded', () => {
+    new TypeIt('#title') //
+        .pause(1000)
+        .delete(7, {
+            delay: 1000
+        })
+        .type('Interface')
+        .go();
+});
+
+// Scroll in and out 
+ScrollOut();
